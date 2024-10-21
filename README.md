@@ -52,3 +52,8 @@ User the URL suggested output terminal.
     5.1 Following this [steps](https://vercel.com/docs/frameworks/vite#vite-plugin-vercel)
     5.2 Installed library using this command `npm i -D vite-plugin-vercel`
     5.3 Preview URL it is available on <https://fashion-app-lyart.vercel.app/>
+
+6. Setup typescript
+    6.1 Command line: `npm install --save-dev typescript @types/react @types/react-dom`
+    6.2 `npx tsc --init`
+    6.3 `npm install --save-dev vite-plugin-svgr`
