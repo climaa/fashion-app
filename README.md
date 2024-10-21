@@ -50,3 +50,5 @@ User the URL suggested output terminal.
 5. Setup vite-plugin-vercel
 
     5.1 Following this [steps](https://vercel.com/docs/frameworks/vite#vite-plugin-vercel)
+    5.2 Installed library using this command `npm i -D vite-plugin-vercel`
+    5.3 Preview URL it is available on <https://fashion-app-lyart.vercel.app/>
