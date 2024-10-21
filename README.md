@@ -46,3 +46,7 @@ User the URL suggested output terminal.
 4. Setup the SCSS using vite compiler.
 
     4.1 Installed the library sass-embedded following this command `npm install -D sass-embedded`
+
+5. Setup vite-plugin-vercel
+
+    5.1 Following this [steps](https://vercel.com/docs/frameworks/vite#vite-plugin-vercel)
