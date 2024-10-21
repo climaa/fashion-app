@@ -43,3 +43,6 @@ User the URL suggested output terminal.
 1. Start creating this file.
 2. Added the respective suggestion on VS code settings file.
 3. Installation of [Vite.dev](https://vite.dev/guide/ssr#setting-up-the-dev-server) as a [SSR](https://github.com/bluwy/create-vite-extra/tree/master/template-ssr-react).
+4. Setup the SCSS using vite compiler.
+
+    4.1 Installed the library sass-embedded following this command `npm install -D sass-embedded`
