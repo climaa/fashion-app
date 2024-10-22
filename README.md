@@ -57,3 +57,6 @@ User the URL suggested output terminal.
     6.1 Command line: `npm install --save-dev typescript @types/react @types/react-dom`
     6.2 `npx tsc --init`
     6.3 `npm install --save-dev vite-plugin-svgr`
+
+7. Setup React Query
+    7.1 Installed the library using the command `npm i @tanstack/react-query`
