@@ -60,3 +60,4 @@ User the URL suggested output terminal.
 
 7. Setup React Query
     7.1 Installed the library using the command `npm i @tanstack/react-query`
+    7.2 Installed the library using the command `npm i @tanstack/react-query-devtools`
