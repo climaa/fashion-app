@@ -54,10 +54,17 @@ User the URL suggested output terminal.
     5.3 Preview URL it is available on <https://fashion-app-lyart.vercel.app/>
 
 6. Setup typescript
+
     6.1 Command line: `npm install --save-dev typescript @types/react @types/react-dom`
     6.2 `npx tsc --init`
     6.3 `npm install --save-dev vite-plugin-svgr`
 
 7. Setup React Query
+
     7.1 Installed the library using the command `npm i @tanstack/react-query`
     7.2 Installed the library using the command `npm i @tanstack/react-query-devtools`
+
+8. Setup the .env file (it is native from vite) to save API TOKEN
+    8.1 Heres is the official documentation <https://vite.dev/guide/env-and-mode>
+    8.2 Installed `npm i --save-dev @types/node` for adding validations types
+    8.3 Make first API call with basic component

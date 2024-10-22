@@ -16,9 +16,10 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": pathBase("src"),
-      "@components": pathBase("src", "components"),
+      "@api": pathBase("src", "shared", "api"),
       "@assets": pathBase("src", "assets"),
-      "@utils": pathBase("src", "utils"),
+      "@components": pathBase("src", "shared", "components"),
+      "@utils": pathBase("src", "shared", "utils"),
     },
   },
 });

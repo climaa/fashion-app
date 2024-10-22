@@ -6,6 +6,7 @@ import {
   QueryClientProvider,
 } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import Carousel from '@components/Carousel'
 
 const queryClient = new QueryClient()
 
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <QueryClientProvider client={queryClient}>
+      <Carousel text="testing API" />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
