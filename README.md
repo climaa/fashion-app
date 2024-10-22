@@ -65,6 +65,11 @@ User the URL suggested output terminal.
     7.2 Installed the library using the command `npm i @tanstack/react-query-devtools`
 
 8. Setup the .env file (it is native from vite) to save API TOKEN
+
     8.1 Heres is the official documentation <https://vite.dev/guide/env-and-mode>
     8.2 Installed `npm i --save-dev @types/node` for adding validations types
     8.3 Make first API call with basic component
+
+9. Installing a Carousel
+
+    9.1 I selected [swiperjs](https://swiperjs.com/) here is the [installation](https://swiperjs.com/react#installation) webpage

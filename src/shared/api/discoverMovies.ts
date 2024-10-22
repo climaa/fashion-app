@@ -1,6 +1,4 @@
 import { get_bearer_token } from "@utils/variables";
-import { sendRequest } from "@utils/fetch";
-import { useQuery } from "@tanstack/react-query";
 
 /** Discover - Movie
  * {@link } https://developer.themoviedb.org/reference/discover-movie
@@ -22,11 +20,10 @@ const options = {
   },
 };
 
-function useMovieList() {
-  return useQuery({
-    queryKey: ["movieList"],
-    queryFn: sendRequest(url, options),
-  });
-}
-
-export default useMovieList;
+export const fetchMobileListData = async () => {
+  const response = await fetch(url, options);
+  if (!response.ok) {
+    throw new Error('Network response was not ok');
+  }
+  return response.json();
+};
